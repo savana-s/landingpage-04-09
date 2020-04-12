@@ -10,22 +10,22 @@ import ContactUs from "./components/ContactUs";
 import Ninth from "./components/Ninth";
 import Message from "./components/Message";
 import Footer from "./components/Footer";
-import resumeData from "./resumeData";
+import infoData from "./infoData";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData} />
-        <About2 resumeData={resumeData} />
-        <ContactUs resumeData={resumeData} />
-        <About3 resumeData={resumeData} />
-        <About resumeData={resumeData} />
-        <Video resumeData={resumeData} />
-        <Seventh resumeData={resumeData} />
-        <Testimonials resumeData={resumeData} />
-        <Ninth resumeData={resumeData} />
-        <Message resumeData={resumeData} />
-        <Footer resumeData={resumeData} />
+        <Header />
+        <About2 />
+        <ContactUs />
+        <About3 />
+        <About />
+        <Video />
+        <Seventh />
+        <Testimonials infoData={infoData} />
+        <Ninth />
+        <Message />
+        <Footer />
       </div>
     );
   }
