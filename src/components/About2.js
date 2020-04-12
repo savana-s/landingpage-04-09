@@ -9,18 +9,8 @@ export default class About2 extends Component {
             USEIAM allows me to use my smart phone to guide me every day. It's
             like having a shadow in my phone.
           </p>
-          <div class="row">
-            <div class="column">
-              <button class="applink">
-                <span role="img">🍏</span>App Store
-              </button>
-            </div>
-            <div class="column">
-              <button class="applink">
-                <span role="img">📐</span>Google Play
-              </button>
-            </div>
-          </div>
+          <button className="linkios">🍏App Store</button>{" "}
+          <button className="linkdroid">📐Google Play</button>
         </div>
       </section>
     );
