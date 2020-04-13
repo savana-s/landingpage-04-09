@@ -11,6 +11,7 @@ import Ninth from "./components/Ninth";
 import Message from "./components/Message";
 import Footer from "./components/Footer";
 import infoData from "./infoData";
+
 class App extends Component {
   render() {
     return (

@@ -8,12 +8,12 @@ let infoData = {
     {
       description:
         "I enjoy IAM for its convenience and reliability. I've been struggling to find balance in life and having this app allows me to routinely check-in and see progress",
-      name: "MONICA, IAM USER, DENVER, CO"
+      name: "MONICA, IAM USER, FORT WORTH, TX"
     },
     {
       description:
-        "I use IAM for its convenience and reliability. I've been struggling to find balance in life and having this app allows me to routinely check-in and see progress",
-      name: "TOMMY, IAM USER, SAN DIEGO, OH"
+        "I use it (IAM) every time I feel the desire to vent and release. It's amazing being able to so readily use my energy in a constructive manner that I can build upon",
+      name: "VALERIA, IAM USER, LOS ANGELES, CA"
     }
   ]
 };
