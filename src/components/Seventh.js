@@ -4,11 +4,8 @@ export default class Seventh extends Component {
     return (
       <section id="seventh">
         <div class="row">
-          <div class="column">
+          <div class="column01">
             <p className="lead">Monitoring</p>
-
-            <br />
-
             <h4 className="end">
               It is suggested that you reach out for help if you are using the
               USIAM app for a monitoring tool. You simply add and a monitor will
@@ -16,7 +13,7 @@ export default class Seventh extends Component {
               have used the USEIAM app with successfull outcomes.
             </h4>
           </div>
-          <div class="column">
+          <div class="column02">
             <img class="ios-pic" src="images/firstios.png" alt="" />
           </div>
         </div>

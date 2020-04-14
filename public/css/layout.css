@@ -23,6 +23,22 @@ body {
   .ios-pic {
     display: none;
   }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+  .column01 {
+    width: 100%;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  .column02 {
+    display: none;
+  }
 }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -95,7 +111,7 @@ header .banner-text hr {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #eaebf5;
+  background: #e9e9e9;
   color: #0f0f0f;
 }
 
@@ -103,15 +119,15 @@ header .banner-text hr {
   display: flex;
 }
 
-#about .column {
-  float: left;
-  width: 100%;
+#about .column02 {
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
 }
 
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
+#about .column01 {
+  min-width: 40%;
 }
 
 #about .ios-pic {
@@ -122,12 +138,10 @@ header .banner-text hr {
 #about h4.end {
   font: 14px "opensans-bold", sans-serif;
   color: #444444;
-  padding-bottom: 3%;
 }
 #about h4 {
   font: 14px "opensans-bold", sans-serif;
   color: #444444;
-  margin-bottom: 5vh;
 }
 #about p.lead {
   margin-top: 5vh;
@@ -198,65 +212,67 @@ header .banner-text hr {
 
 #about3 {
   background: #ffffff;
-  padding-top: 96px;
-  padding-bottom: 66px;
   overflow: hidden;
+  height: auto;
+  color: #000000;
 }
 
-#about3 a,
-#about a:visited {
-  color: rgb(0, 0, 0);
-}
-#about3 a:hover,
-#about a:focus {
-  color: #11abb0;
-}
-
-#about3 h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
-  color: rgb(0, 0, 0);
-  margin-bottom: 12px;
-}
-
-#about3 h4 {
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-}
-
-#about3 p {
-  color: rgb(0, 0, 0);
-  margin: 0;
-}
-#about3 .profile-pic {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
-}
 #about3 .contact-details {
   width: 100%;
   text-align: center;
-}
-#about3 .download {
-  width: 58.33333%;
-  padding-top: 6px;
-}
-#about3 .main-col {
-  padding-right: 5%;
-}
-#about3 .download .button {
-  margin-top: 6px;
-  background: #444;
-}
-#about3 .download .button:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-#about3 .download .button i {
-  margin-right: 15px;
-  font-size: 20px;
+  padding-top: 12vh;
 }
 
+#about3 p {
+  margin: 0px;
+  font-size: 0.9em;
+  padding-top: 2vh;
+  font: "opensans-bold", sans-serif;
+}
+#about3 h2 {
+  margin: 0px;
+  font-size: 1.2em;
+}
+
+#about3 .row {
+  display: flex;
+  padding-top: 2vh;
+}
+
+#about3 .column1 {
+  min-width: 90px;
+  max-width: 100px;
+  float: left;
+  text-align: right;
+  margin-right: 10%;
+}
+
+#about3 .column1 .img1 {
+  margin-bottom: 50%;
+}
+#about3 .column1 .img2 {
+}
+
+#about3 .column2 {
+  flex: 70%;
+  float: right;
+  text-align: left;
+  margin-left: 1vh;
+  padding-right: 3%;
+  padding-bottom: 5vh;
+}
+
+#about3 .column2 p {
+  font-size: 1em;
+  margin-bottom: 5vh;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* ------------------------------------------------------------------ */
 /* c. Video Section
 /* ------------------------------------------------------------------ */
@@ -302,7 +318,7 @@ header .banner-text hr {
 /* ------------------------------------------------------------------ */
 
 #seventh {
-  background: #eaebf5;
+  background: #e9e9e9;
   color: #0f0f0f;
 }
 
@@ -310,118 +326,39 @@ header .banner-text hr {
   display: flex;
 }
 
-#seventh .column {
-  float: left;
-  width: 100%;
+#seventh .column01 {
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
 }
-
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
+#seventh .column02 {
+  min-width: 40%;
 }
 
 #seventh .ios-pic {
   position: relative;
   object-fit: cover;
+  height: auto;
 }
 
 #seventh h4.end {
   font: 16px "opensans-bold", sans-serif;
   color: #444444;
-  padding-bottom: 10%;
+  padding-bottom: 10vh;
 }
 #seventh h4 {
   font: 14px "opensans-bold", sans-serif;
   color: #444444;
 }
 #seventh p.lead {
-  margin-top: 5vh;
   font: 18px "opensans-bold", sans-serif;
-  margin-bottom: 0px;
   color: #0f0f0f;
+  padding-top: 10vh;
 }
 #seventh p {
   font: 18px "opensans-bold", sans-serif;
-  margin-bottom: 5vh;
   color: #0f0f0f;
-}
-
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
-  opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-  opacity: 1;
-}
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-  opacity: 0;
-}
-
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-  background: #212121;
-  padding-top: 66px;
-  padding-bottom: 48px;
-}
-#call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#call-to-action h1 span {
-  display: none;
-}
-#call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-#call-to-action .action {
-  margin-top: 12px;
-}
-#call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#call-to-action h2 a {
-  color: inherit;
-}
-#call-to-action p {
-  color: #636363;
-  font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-  background: #ffffff;
-  color: #0d0d0d;
-}
-#call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
-  color: #d8d8d8;
 }
 
 /* ------------------------------------------------------------------
@@ -665,7 +602,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-  background: #eaebf5;
+  background: #e9e9e9;
   color: #0f0f0f;
 }
 
@@ -673,33 +610,34 @@ call-to-action .button {
   display: flex;
 }
 
-#contact .column {
-  float: left;
-  width: 100%;
+#contact .column01 {
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
 }
 
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
+#contact .column02 {
+  min-width: 40%;
+  margin-bottom: 0px;
 }
 
 #contact .ios-pic {
   position: relative;
   object-fit: cover;
+  margin-bottom: 0px;
 }
 
 #contact h4.end {
-  font: 12px "opensans-bold", sans-serif;
+  font: 1em "opensans-bold", sans-serif;
   color: #444444;
-  padding-bottom: 3%;
 }
 #contact h4 {
-  font: 12px "opensans-bold", sans-serif;
+  font: 1em "opensans-bold", sans-serif;
   color: #444444;
 }
 #contact p.lead {
-  margin-top: 5vh;
+  margin-top: 10vh;
   font: 18px "opensans-bold", sans-serif;
   margin-bottom: 0px;
   color: #0f0f0f;

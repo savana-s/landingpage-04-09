@@ -4,10 +4,10 @@ export default class About extends Component {
     return (
       <section id="about">
         <div class="row">
-          <div class="column">
+          <div class="column02">
             <img class="ios-pic" src="images/firstios.png" alt="" />
           </div>
-          <div class="column">
+          <div class="column01">
             <p className="lead">How does USEIAM help me?</p>
 
             <h4 className="end">
