@@ -233,6 +233,10 @@ header .banner-text hr {
   padding-top: 2vh;
   font: "opensans-bold", sans-serif;
 }
+
+#about3 .contact-details p {
+}
+
 #about3 h2 {
   margin: 0px;
   font-size: 1.2em;
@@ -240,35 +244,28 @@ header .banner-text hr {
 
 #about3 .row {
   display: flex;
-  padding-top: 2vh;
 }
 
-#about3 .column1 {
+#about3 .column02 .img1 {
+  padding-bottom: 3vh;
+}
+#about3 .column01 .img2 {
+}
+#about3 .column02 {
   min-width: 90px;
   max-width: 100px;
   float: left;
   text-align: right;
   margin-right: 10%;
 }
-
-#about3 .column1 .img1 {
-  margin-bottom: 50%;
-}
-#about3 .column1 .img2 {
-}
-
-#about3 .column2 {
+#about3 .column01 {
   flex: 70%;
   float: right;
   text-align: left;
   margin-left: 1vh;
-  padding-right: 3%;
-  padding-bottom: 5vh;
-}
-
-#about3 .column2 p {
-  font-size: 1em;
-  margin-bottom: 5vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  padding-bottom: 8vh;
 }
 
 /* Clear floats after image containers */
@@ -283,15 +280,16 @@ header .banner-text hr {
 
 #video {
   background: #ffffff;
-  padding-top: 4%;
+  padding-top: 3%;
   height: auto;
+  max-height: 101vh;
   overflow: hidden;
 }
 
 #video h2 {
   font: 2em "opensans-bold", sans-serif;
   color: rgb(0, 0, 0);
-  padding-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 #video .contact-details {
@@ -645,7 +643,7 @@ header .banner-text hr {
 }
 #contact p {
   font: 18px "opensans-bold", sans-serif;
-  margin-bottom: 5vh;
+  margin-bottom: 4vh;
   color: #0f0f0f;
 }
 

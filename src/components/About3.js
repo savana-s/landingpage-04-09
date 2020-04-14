@@ -30,7 +30,7 @@ export default class About3 extends Component {
                 Talk about your previous day, the people you met, etc. and then
                 send to your secure email.
               </p>
-              <p>
+              <p className="last">
                 When you go to a place other than your residence, hit the
                 location button on the useiam app and a gps locator map is sent
                 to the same secure email address along with your typed purpose
