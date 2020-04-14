@@ -24,7 +24,6 @@ export default class Header extends Component {
               <hr />
             </div>
           </div>
-          >
         </header>
       </React.Fragment>
     );

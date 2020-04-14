@@ -224,7 +224,16 @@ header .banner-text hr {
 #about3 .contact-details {
   width: 100%;
   text-align: center;
+}
+
+#about3 .contact-details h2 {
   padding-top: 12vh;
+  font-size: 1.3em;
+}
+
+#about3 .contact-details p {
+  padding-left: 6vh;
+  padding-right: 6vh;
 }
 
 #about3 p {
@@ -232,9 +241,6 @@ header .banner-text hr {
   font-size: 0.9em;
   padding-top: 2vh;
   font: "opensans-bold", sans-serif;
-}
-
-#about3 .contact-details p {
 }
 
 #about3 h2 {
@@ -249,14 +255,13 @@ header .banner-text hr {
 #about3 .column02 .img1 {
   padding-bottom: 3vh;
 }
-#about3 .column01 .img2 {
+#about3 .column02 .img2 {
 }
 #about3 .column02 {
   min-width: 90px;
   max-width: 100px;
   float: left;
   text-align: right;
-  margin-right: 10%;
 }
 #about3 .column01 {
   flex: 70%;
@@ -266,6 +271,9 @@ header .banner-text hr {
   padding-right: 5vh;
   padding-left: 5vh;
   padding-bottom: 8vh;
+}
+#about3 .column01 p {
+  color: #4e4848;
 }
 
 /* Clear floats after image containers */
