@@ -147,18 +147,9 @@ header .banner-text hr {
 #about2 {
   background: #212b48;
   overflow: hidden;
-  min-height: 30.2vh;
-  max-height: 30.5vh;
+  height: 30vh;
 }
 
-#about2 a,
-#about a:visited {
-  color: #fff;
-}
-#about2 a:hover,
-#about a:focus {
-  color: #11abb0;
-}
 #about2 .contact-details {
   width: 100%;
   text-align: center;
@@ -173,16 +164,25 @@ header .banner-text hr {
   color: #ffffff;
   margin: 0px;
   font-size: 1.1em;
-  padding-top: 2vh;
+  padding-top: 4vh;
 }
 
 #about2 .row {
   display: flex;
+  padding-top: 2vh;
 }
 
-#about2 .column {
-  flex: 49.99%;
-  padding: 5px;
+#about2 .column1 {
+  flex: 50%;
+  float: left;
+  text-align: right;
+  margin-right: 1vh;
+}
+#about2 .column2 {
+  flex: 50%;
+  float: right;
+  text-align: left;
+  margin-left: 1vh;
 }
 
 /* Clear floats after image containers */
@@ -612,49 +612,54 @@ call-to-action .button {
 
 #ninth {
   background: #ffffff;
-  height: 30.2vh;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  color: #0f0f0f;
+  height: auto;
   overflow: hidden;
 }
 
 #ninth .contact-details {
   width: 100%;
   text-align: center;
+  padding-top: 6vh;
 }
 
-#ninth .flex {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-}
-
-#ninth .app-btn {
-  width: 45%;
-  max-width: 160px;
-  color: #fff;
-  margin: 0px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Lucida Grande", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-#ninth .app-btn.blu {
-}
-#ninth .app-btn.blu:hover {
-}
-
-#ninth h2 {
-  font: 1.5em "opensans-bold", sans-serif;
+#ninth p {
   color: #0f0f0f;
-  margin-bottom: 1.2em;
-  text-align: center;
+  margin: 0px;
+  font-size: 0.8em;
+}
+#ninth h2 {
+  color: #0f0f0f;
+  margin: 0px;
+  font-size: 1.1em;
 }
 
+#ninth .row {
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 7vh;
+}
+
+#ninth .column1 {
+  flex: 50%;
+  float: left;
+  text-align: right;
+  margin-right: 1vh;
+}
+
+#ninth .column2 {
+  flex: 50%;
+  float: right;
+  text-align: left;
+  margin-left: 1vh;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
