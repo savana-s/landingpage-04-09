@@ -10,7 +10,7 @@ export default class About3 extends Component {
             MAKE A COMMITMENT TO USE THE USEIAM APP EVERY DAY FOR THREE MONTHS.
           </p>
           <div class="row">
-            <div class="column">
+            <div class="column02">
               <img
                 className="img1"
                 src="images/diamond.png"
@@ -22,7 +22,7 @@ export default class About3 extends Component {
                 alt="diamond-icon"
               />
             </div>
-            <div class="column">
+            <div class="column01">
               <p>
                 Every day take a selfie video of what is on your mind, how you
                 fee (physically, mentally, spiritually), what you have planned

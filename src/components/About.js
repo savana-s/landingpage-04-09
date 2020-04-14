@@ -5,11 +5,10 @@ export default class About extends Component {
       <section id="about">
         <div class="row">
           <div class="column02">
-            <img class="ios-pic" src="images/firstios.png" alt="" />
+            <img class="ios-pic" src="images/monitoring.png" alt="" />
           </div>
           <div class="column01">
             <p className="lead">How does USEIAM help me?</p>
-
             <h4 className="end">
               Throughout history people have use personal diaries to record
               memories of observations and occurrences. USEIAM is a modern day

@@ -14,7 +14,7 @@ export default class Seventh extends Component {
             </h4>
           </div>
           <div class="column02">
-            <img class="ios-pic" src="images/firstios.png" alt="" />
+            <img class="ios-pic" src="images/logged.png" alt="" />
           </div>
         </div>
       </section>
