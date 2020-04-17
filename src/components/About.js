@@ -10,7 +10,7 @@ export default class About extends Component {
           <div class="column01">
             <p className="lead">How does USEIAM help me?</p>
             <h4 className="end">
-              Throughout history people have use personal diaries to record
+              Throughout history people have used personal diaries to record
               memories of observations and occurrences. USEIAM is a modern day
               personal diary and much more secure than writing in books. Instead
               of writing in a diary you video a selfie to your secure email
