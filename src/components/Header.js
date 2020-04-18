@@ -7,14 +7,17 @@ export default class Header extends Component {
         <header id="home">
           <div className="row banner">
             <div className="banner-text">
-              <p className="roof" style={{ paddingLeft: "15%" }}>
+              <p
+                className="roof"
+                style={{ paddingLeft: "25%", fontSize: "14px" }}
+              >
                 accountability
               </p>
               <h1 className="responsive-headline">
-                <p className="walls" style={{ fontSize: "12px" }}>
+                <p className="walls" style={{ fontSize: "15px" }}>
                   credibility
                 </p>
-                <p className="basement" style={{ fontSize: "12px" }}>
+                <p className="basement" style={{ fontSize: "14px" }}>
                   honesty
                 </p>
                 I AM
